@@ -9,6 +9,9 @@
 }
 
 /* share style */
+.bgh{
+    color: rgb(255, 248, 243);;
+}
 
 .class-primary{
     color: rgb(253, 110, 10);
@@ -84,10 +87,10 @@ nav ul li a{
 
 /* nav end */
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(../images/orpo2-removebg-preview.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    /* color:  rgb(255, 248, 243); */
+   
 }
 
 /* banner style */
@@ -168,3 +171,52 @@ main section{
     margin-bottom: 130px;
 }
 
+/* my summary rusume  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experince-description{
+    color: rgb(117, 117, 117);
+}
+.experince-sub-title{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+/* button strt */
+.resume1{
+    margin-top: 50px;
+}
+  /* footer style */
+
+  footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;;
+    background-color: lightslategray;
+  }
+
+  .footer-colomn{
+
+    width: 50%;
+  }
+
+  input[type="email"],input[type="number"],textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    background-color: #fff;
+    color: blue;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+  }
+  
